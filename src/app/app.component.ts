@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  select=true;
   title = 'nikulsan';
+  change(data){
+    this.select=data;
+  }
 }

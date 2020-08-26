@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "nikulsan"
+    }
+  },
+  "defaultProject": "nikulsan",
+  "cli": {
+    "analytics": "44429103-ab6c-46fc-82a3-15d05a681c8d"
+  }
 }

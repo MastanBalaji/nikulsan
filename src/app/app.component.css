@@ -1,0 +1,125 @@
+.main{
+    background: rgb(167, 223, 217);
+    min-height: 100vh;
+    padding: 3rem 10rem 1rem;
+}
+.comment{
+    border: 1.5px solid rgb(219, 219, 219);
+}
+h1{
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    word-spacing:0.5rem;
+    font-size: 3.5rem;
+}
+
+.fas{
+    font-size:6.5rem;
+}
+.fa-trophy{
+    font-size:4rem;
+}
+.review{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: loadsin 1000ms ease-in;
+}
+.font1{
+    color: white;
+    font-size: 1rem;
+}
+nav ul li a{
+    color: black;
+    background: transparent;
+    border-color: black;
+}
+nav ul li a:hover{
+    color: black;
+    background: white;
+}
+.bld{
+    font-weight: bold;
+}
+
+.selected{
+    height: 150px;
+    width: 150px;
+    color:white;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: loadsin 1000ms ease-in;
+}
+.mar{
+    margin: 0;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 510px) {
+    .review{
+        height: 100px;
+        width: 100px;
+    }
+    .selected{
+        height: 100px;
+        width: 100px;
+    }
+    h1{
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        word-spacing:0.2rem;
+    }
+    h6{
+        font-size: 0.6rem;
+    }
+    .main{
+        padding: 0.5rem 0.5rem;
+    }
+    .fa-trophy{
+        font-size:2rem;
+    }
+  }
+  @media only screen and (min-width: 511px) and (max-width: 1082px) {
+    .review{
+        height: 120px;
+        width: 120px;
+        margin: 0 0.5rem;
+    }
+    .selected{
+        height: 120px;
+        width: 120px;
+        margin: 0 0.5rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h6{
+        font-size: 0.8rem;
+    }
+    .main{
+        padding: 1rem 1rem;
+    }
+    .fa-trophy{
+        font-size:2rem;
+    }
+  }
+  @keyframes loadsin {
+      0%{
+          transform: translateY(-100%);
+      }
+      80%{
+        transform: translateY(15%);
+      }
+      100%{
+        transform: translateY(0);
+      }
+  }
